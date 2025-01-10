@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Ganti dengan gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #e91e63;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+h3 {
+    font-size: 22px;
+    margin: 15px 0 5px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#rsvpMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+}
